@@ -1,0 +1,18 @@
+.container-admin-home {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.homeAdm-section2-icons{
+    margin-top: 10rem;
+    margin: 14rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    max-width: 50%;
+}
+
+.icons-adm{
+    cursor: pointer;
+}

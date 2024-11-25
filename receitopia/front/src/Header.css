@@ -1,0 +1,23 @@
+.header{
+    display: flex;
+}
+
+.home-header{
+    text-align: center;
+    height: 60px;
+    padding: 20px;
+    margin: auto;
+}
+
+.home-header a{
+    font-size: 1.1rem;
+    color: black;
+    font-weight: 600;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.logo-img{
+    width: 70px;
+    height: 70px;
+}

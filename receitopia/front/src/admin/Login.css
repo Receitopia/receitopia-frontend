@@ -1,0 +1,80 @@
+.container-login {
+    height: 100vh;
+    display: flex;
+}
+
+.lado1 {
+    background-color: #FFD34E;
+    width: 40%;
+    max-height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+#img-login img {
+    width: 1rem;
+    height: 2rem; 
+    object-fit: contain; /* p imagem ser redimensionada sem distorcer */
+}
+
+.lado2{
+    width: 50%;
+    max-height: 100vh;
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    align-items: center; 
+}
+
+input {
+    width: 15em;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 40px;
+    margin-top: 5px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    margin-bottom: 15px; 
+}
+
+.input-container label {
+    margin-right: 15px; /* Espaço entre o label e a textbox */
+    font-weight: 600;
+}
+
+#btn-entrar {
+    cursor: pointer;
+    margin-top: 20px;
+    margin: 0 30%;
+    padding: 10px;
+    background-color: #FFD34E;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    width: 100%;
+    border-radius: 40px;
+    max-width: 100px;
+}
+
+#btn-entrar:hover {
+    background-color: #eb9d0cd3; /* Muda a cor do botão ao passar o mouse */
+    color: white;
+    transition: .2s;
+}
+
+.back {
+    position: absolute; /* Fixa o botão no canto superior esquerdo */
+    top: 10px;
+    left: 10px;
+    width: 32px; /* Define o tamanho do botão */
+    height: auto; /* Mantém as proporções */
+    cursor: pointer;
+    z-index: 100; /* Garante que fique acima de outros elementos */
+}
+

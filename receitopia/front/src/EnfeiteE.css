@@ -1,0 +1,18 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#enfeite-login-esq {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+#enfeite-login-esq img {
+    width: auto; /* Ajuste se necessário */
+    height: 100vh;
+    overflow: hidden;
+}

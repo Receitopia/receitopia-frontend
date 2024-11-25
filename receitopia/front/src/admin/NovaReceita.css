@@ -1,0 +1,64 @@
+/* Container para centralizar todo o conteúdo */
+.container-nova-receita {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Garante que o conteúdo seja centralizado verticalmente */
+    text-align: center;
+  }
+  
+  .nova-receita {
+    display: grid;
+    grid-gap: 10px; /* Espaço entre as colunas */
+    width: 100%;
+    max-width: 800px; /* Limita a largura do formulário */
+    padding: 20px;
+  }
+  
+  #form2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .lab2 {
+    margin-bottom: 5px;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  .input1, .input2 {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 40px;
+    border: 1px solid #ccc;
+    width: 600px;
+  }
+  
+  #btn-salvar-receita {
+    padding: 10px;
+    background-color: #FFD34E;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+    font-weight: 700;
+  }
+  
+  #btn-salvar-receita:hover {
+    background-color: #FFD34E;
+  }
+  
+  p {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+  }
+
+  .item2 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
